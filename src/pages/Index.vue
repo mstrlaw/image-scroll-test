@@ -15,10 +15,13 @@
         immediate=true
       />
     </div>
-    <div
-      class="h-100"
-      :style="{ transform: 'translateY('+yPos+'px)' }"
-    >
+    
+    <h1 :style="{ transform: 'translateY('+yPos+'px)' }">I'm the parallax element</h1>
+
+    <div class="h-100">
+      <br>
+      <br>
+      <br>
       <p>Big height for scroll</p>
     </div>
   </Layout>
